@@ -1,0 +1,29 @@
+# --- Terraform Secrets and State ---
+
+# Terraform state files (CRITICAL SECURITY RISK)
+*.tfstate
+*.tfstate.*
+
+# Terraform backup files
+*.backup
+
+# Plan files (can contain secrets, though often committed)
+*.tfplan
+
+# .terraform folder (local provider data)
+.terraform/
+
+# Crash log files
+crash.log
+
+# --- Azure Secrets ---
+
+# We are using environment variables, but if any local files contained
+# ARM_CLIENT_SECRET or passwords, they would be listed here.
+
+# --- Local Environment Files ---
+.vscode/
+
+# --- Operating System Files ---
+Thumbs.db
+.DS_Store
