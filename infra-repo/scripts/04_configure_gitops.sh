@@ -60,4 +60,3 @@ echo "    - New ArgoCD Admin Password is set (DO NOT LOSE IT): ${NEW_ARGOCD_PASS
 echo "    - Your repository is registered."
 echo "    - Next step: Create your application manifest in Git and deploy using 'argocd app create'."
 echo " "
-echo ""
